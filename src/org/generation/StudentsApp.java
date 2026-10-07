@@ -48,8 +48,8 @@ public class StudentsApp {
             System.out.println("Calificación más alta: " + c5.bestGrade());
             c5.enroll(students); // Método sobrecargado: array de estudiantes
             System.out.println("Estudiantes en el curso 5: " + c5.countStudents());
-            //System.out.println(c5.average());
-            //c5.isAboveAverage();
-            //c5.ranking();
+            System.out.println("Promedio del curso: " + c5.average());
+            c5.isAboveAverage();
+            c5.ranking();
     }//main
 }//class
